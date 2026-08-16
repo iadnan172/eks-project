@@ -14,8 +14,7 @@ GitHub repo → EC2 (build) → ECR (image storage) → EKS cluster (EC2 worker 
 - **AWS Load Balancer Controller** — watches Ingress resources and provisions an ALB automatically
 - **ALB (Application Load Balancer)** — public entry point routing traffic into the cluster
 
-![Architecture Diagram](images/architecture.png)
-
+![Architecture Diagram](https://github.com/iadnan172/eks-project/blob/main/images/architecture.png.png?raw=true)
 ## Tech Stack
 
 - AWS: EC2, EKS, ECR, IAM (IRSA), VPC, ALB
